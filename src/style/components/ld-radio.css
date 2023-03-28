@@ -22,7 +22,7 @@
     height: 22px;
     width: 22px;
     border-radius: 50%;
-    background-color: var(--ld-color-gray-lighter);
+    background-color: var(--ld-color-gray-lightest);
     border: 2px solid var(--ld-color-gray-dark);
     position: absolute;
     top: 0;
