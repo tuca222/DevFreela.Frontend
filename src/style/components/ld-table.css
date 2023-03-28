@@ -19,7 +19,13 @@
     padding-left: 32px;
     padding-right: 32px;
 }
+.ld-table >.head >.row >.actions{
+    margin: auto;
+}
 
+.ld-table >.head >.row >.total-cost{
+    margin: auto;
+}
 
 /* Body */
 .ld-table >.body{
@@ -31,15 +37,18 @@
     padding: 24px 32px;
     grid-template-columns: 2fr 1fr 200px;
     border-bottom: 1px solid var(--ld-color-gray-lighter);
+    
 }
 
 .ld-table >.body >.row:last-child{
     border-bottom: none;
+    margin-bottom: 30px;
 }
 
 /* Body - title description*/
 
 .ld-table >.body >.row >.title-description{
+    padding-right: 30px;
 }
 
 .ld-table >.body >.row >.title-description >.title{
@@ -54,4 +63,22 @@
 .ld-table >.body >.row >.price{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    margin: auto;
+}
+
+/* Body - actions*/
+
+.ld-table >.body >.row >.actions{
+    margin: auto;
+}
+
+.ld-table >.body >.row >.actions >.edit{
+    color: var(--ld-primary-color);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.ld-table >.body >.row >.actions >.delete{
+    color: var(--ld-color-danger);
+    cursor: pointer;
 }

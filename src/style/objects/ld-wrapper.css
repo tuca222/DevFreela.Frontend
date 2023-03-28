@@ -10,6 +10,8 @@
 }
 
 .ld-wrapper >.main-content.-one-col{
+    margin: auto;
+    max-width: var(--ld-table-wrapper-size);
     grid-template-columns: 1fr;
 }
 
