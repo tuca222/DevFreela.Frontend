@@ -9,6 +9,12 @@
     padding-top: var(--ld-header-size);
 }
 
+.ld-wrapper >.main-content.-one-col{
+    margin: auto;
+    max-width: var(--ld-table-wrapper-size);
+    grid-template-columns: 1fr;
+}
+
 .ld-wrapper >.main-content >.left{
     padding-top: 48px;
 }
